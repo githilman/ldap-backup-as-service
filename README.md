@@ -1,6 +1,6 @@
 # LDAP Backup as Service
 
-A cron to backup .ldif file from Apacheds LDAP server and stored to GCS.
+A cron to backup **`.ldif`** file from Apacheds LDAP server and stored to GCS.
 
 It's hard to automatically backup LDAP data since there's no convenient way to backup it. This repo is a cron that will backup LDAP data under ou=system every 01.00 AM and stored the backup file to GCS bucket. This is my convenient way to do regular user data backup from LDAP server deployed on kubernetes cluster.
 
